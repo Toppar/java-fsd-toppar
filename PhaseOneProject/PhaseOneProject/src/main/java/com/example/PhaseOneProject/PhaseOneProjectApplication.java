@@ -185,7 +185,7 @@ public class PhaseOneProjectApplication {
 			System.out.print("Contents of file to be updated: " + line);
 			while (line != null) {
 				oldContent = oldContent + line + System.lineSeparator();
-				System.out.print("Old contents of file: " + oldContent);
+				System.out.print("\nOld contents of file: " + oldContent);
 				line = reader.readLine();
 				// System.out.println("line=" + line);
 			}
